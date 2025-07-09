@@ -137,8 +137,7 @@ a. Launch noVNC GUI simulation (no NVIDIA GPU needed):
 cd f1tenth_gym_ros
 docker-compose up
 ```
-Then open your browser to: 
-:point_right: http://localhost:8080/vnc.html
+Then open your browser to: http://localhost:8080/vnc.html
 
 b. With NVIDIA GPU (hardware-accelerated):
 Install ```nvidia-docker2``` (optional, if GPU available):
