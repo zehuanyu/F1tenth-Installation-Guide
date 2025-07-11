@@ -18,6 +18,7 @@ This step-by-step guide helps you install **Ubuntu 20.04**, **ROS 2 Foxy**, and 
 ---
 
 ## :one: Install Ubuntu 20.04
+## Option A: Dual-boot
 1. Download Ubuntu 20.04 ISO from [ubuntu.com](https://releases.ubuntu.com/20.04/).
 2. Create a bootable USB (using [Rufus](https://rufus.ie/) or [balenaEtcher](https://www.balena.io/etcher/)).
 3. Install Ubuntu by booting from USB.
@@ -27,7 +28,31 @@ This step-by-step guide helps you install **Ubuntu 20.04**, **ROS 2 Foxy**, and 
 sudo apt update && sudo apt upgrade -y
 ```
 ---
+## Option B: WSL2 on Windows
 
+Open PowerShell as Administrator.
+
+Enable WSL and Virtual Machine Platform:
+
+```bash
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
+Restart your PC.
+
+Set WSL2 as the default:
+```bash
+wsl --set-default-version 2
+```
+Install Ubuntu 20.04 under WSL:
+```bash
+wsl --install -d Ubuntu-20.04
+```
+Launch Ubuntu 20.04 from the Start menu, create your UNIX username/password, then update:
+
+```bash
+sudo apt update && sudo apt upgrade -y
+```
 ## :two: Install Docker On Ununtu 20.04
 
 ### Remove Old Versions
