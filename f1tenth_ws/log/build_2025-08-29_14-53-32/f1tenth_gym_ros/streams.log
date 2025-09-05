@@ -1,0 +1,24 @@
+[0.534s] Invoking command in '/home/joyce/f1tenth_ws/build/f1tenth_gym_ros': PYTHONPATH=/home/joyce/f1tenth_ws/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joyce/f1tenth_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/joyce/f1tenth_ws/build/f1tenth_gym_ros/build --no-deps symlink_data --force
+[0.683s] running develop
+[0.774s] running egg_info
+[0.774s] writing f1tenth_gym_ros.egg-info/PKG-INFO
+[0.774s] writing dependency_links to f1tenth_gym_ros.egg-info/dependency_links.txt
+[0.774s] writing entry points to f1tenth_gym_ros.egg-info/entry_points.txt
+[0.774s] writing requirements to f1tenth_gym_ros.egg-info/requires.txt
+[0.774s] writing top-level names to f1tenth_gym_ros.egg-info/top_level.txt
+[0.794s] reading manifest file 'f1tenth_gym_ros.egg-info/SOURCES.txt'
+[0.794s] writing manifest file 'f1tenth_gym_ros.egg-info/SOURCES.txt'
+[0.815s] running build_ext
+[0.816s] Creating /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/site.py
+[0.817s] Creating /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth-gym-ros.egg-link (link to .)
+[0.818s] Installing gym_bridge script to /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros
+[0.818s] 
+[0.818s] Installed /home/joyce/f1tenth_ws/build/f1tenth_gym_ros
+[0.818s] running symlink_data
+[0.818s] symbolically linking /home/joyce/f1tenth_ws/build/f1tenth_gym_ros/resource/f1tenth_gym_ros -> /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/share/ament_index/resource_index/packages
+[0.818s] symbolically linking /home/joyce/f1tenth_ws/build/f1tenth_gym_ros/package.xml -> /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros
+[0.818s] symbolically linking /home/joyce/f1tenth_ws/build/f1tenth_gym_ros/launch/gym_bridge_launch.py -> /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[0.818s] symbolically linking /home/joyce/f1tenth_ws/build/f1tenth_gym_ros/launch/ego_racecar.xacro -> /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[0.818s] symbolically linking /home/joyce/f1tenth_ws/build/f1tenth_gym_ros/launch/opp_racecar.xacro -> /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[0.818s] symbolically linking /home/joyce/f1tenth_ws/build/f1tenth_gym_ros/launch/gym_bridge.rviz -> /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[0.819s] symbolically linking /home/joyce/f1tenth_ws/build/f1tenth_gym_ros/config/sim.yaml -> /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config

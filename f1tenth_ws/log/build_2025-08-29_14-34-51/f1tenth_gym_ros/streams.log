@@ -1,0 +1,44 @@
+[0.553s] Invoking command in '/home/joyce/f1tenth_ws/src/f1tenth_gym_ros': PYTHONPATH=/home/joyce/f1tenth_ws/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joyce/f1tenth_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/joyce/f1tenth_ws/build/f1tenth_gym_ros/build install --record /home/joyce/f1tenth_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed install_data
+[0.686s] running egg_info
+[0.686s] creating ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info
+[0.687s] writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO
+[0.687s] writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt
+[0.687s] writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt
+[0.687s] writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt
+[0.687s] writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt
+[0.688s] writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[0.709s] reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[0.709s] writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[0.709s] running build
+[0.709s] running build_py
+[0.709s] creating /home/joyce/f1tenth_ws/build/f1tenth_gym_ros/build
+[0.709s] creating /home/joyce/f1tenth_ws/build/f1tenth_gym_ros/build/lib
+[0.709s] creating /home/joyce/f1tenth_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[0.709s] copying f1tenth_gym_ros/__init__.py -> /home/joyce/f1tenth_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[0.710s] copying f1tenth_gym_ros/gym_bridge.py -> /home/joyce/f1tenth_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[0.710s] running install
+[0.710s] running install_lib
+[0.710s] creating /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros
+[0.710s] copying /home/joyce/f1tenth_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros/__init__.py -> /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros
+[0.711s] copying /home/joyce/f1tenth_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros/gym_bridge.py -> /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros
+[0.711s] byte-compiling /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros/__init__.py to __init__.cpython-38.pyc
+[0.711s] byte-compiling /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros/gym_bridge.py to gym_bridge.cpython-38.pyc
+[0.713s] running install_data
+[0.713s] creating /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/share/ament_index
+[0.713s] creating /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/share/ament_index/resource_index
+[0.713s] creating /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/share/ament_index/resource_index/packages
+[0.714s] copying resource/f1tenth_gym_ros -> /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/share/ament_index/resource_index/packages
+[0.714s] copying package.xml -> /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros
+[0.714s] creating /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[0.714s] copying launch/gym_bridge_launch.py -> /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[0.714s] copying launch/ego_racecar.xacro -> /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[0.714s] copying launch/opp_racecar.xacro -> /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[0.714s] copying launch/gym_bridge.rviz -> /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[0.714s] creating /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config
+[0.714s] copying config/sim.yaml -> /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config
+[0.714s] running install_egg_info
+[0.715s] Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info
+[0.715s] running install_scripts
+[0.725s] Installing gym_bridge script to /home/joyce/f1tenth_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros
+[0.725s] writing list of installed files to '/home/joyce/f1tenth_ws/build/f1tenth_gym_ros/install.log'
+[0.737s] Invoked command in '/home/joyce/f1tenth_ws/src/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/joyce/f1tenth_ws/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joyce/f1tenth_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/joyce/f1tenth_ws/build/f1tenth_gym_ros/build install --record /home/joyce/f1tenth_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed install_data
